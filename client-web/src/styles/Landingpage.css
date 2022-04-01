@@ -1,0 +1,63 @@
+.content-landing {
+  background-color: rgb(255, 255, 255);
+  padding: 2.5rem;
+}
+
+.landing-image {
+  background-image: url("../images/health-fitness.jpg");
+  background-color: rgb(253, 253, 253);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.content-landing P {
+  padding: 2rem;
+  width: 100%;
+  font-size: larger;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+}
+
+.contain-btn {
+  display: flex;
+  padding: 5px;
+}
+
+.custom {
+  background-color: rgb(243, 243, 243);
+  margin-right: 5px;
+  transition: 0.5s;
+  height: fit-content;
+  padding: 5px 10px;
+}
+.custom:nth-child(2) {
+  background-color: rgb(238, 194, 211);
+}
+.custom:nth-child(2) a {
+  color: rgb(39, 39, 39);
+}
+.custom a {
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 10px;
+
+  color: rgb(40, 136, 160);
+}
+.custom:hover {
+  background-color: rgb(224, 103, 103);
+}
+.custom:nth-child(2):hover {
+  background-color: rgb(221, 177, 195);
+}
+
+@media screen and (max-width: 340px) {
+  .content-landing {
+    min-width: 281px;
+  }
+  .landing-image {
+    min-width: 281px;
+  }
+}

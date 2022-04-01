@@ -1,0 +1,13 @@
+{
+  "name": "exercise-activity-planner-master",
+  "version": "1.0.0",
+  "description": "Excercise-Activity-planner  for",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && npm start && serve build"
+  
+  },
+  "author": "ghost-tremble",
+  "license": "ISC"
+}
